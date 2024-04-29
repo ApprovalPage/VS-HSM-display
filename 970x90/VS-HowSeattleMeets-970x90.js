@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib._970x90rainier = function() {
+(lib._970x90needle = function() {
 	this.initialize(ss["VS_HowSeattleMeets_970x90_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -106,7 +106,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._970x90rainier();
+	this.instance = new lib._970x90needle();
 	this.instance.setTransform(-485,-45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -726,8 +726,8 @@ if (reversed == null) { reversed = false; }
 
 	// border
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EhLxgG8MCXjAAAIAAN5MiXjAAAg");
-	this.shape.setTransform(484.9963,44.9986,0.999,1);
+	this.shape.graphics.f().s("#000000").ss(1,1,1).p("EhLsgG8MCXZAAAIAAN5MiXZAAAg");
+	this.shape.setTransform(485,45);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(260));
 
@@ -808,42 +808,42 @@ if (reversed == null) { reversed = false; }
 
 	// med1
 	this.instance_10 = new lib.blockmed();
-	this.instance_10.setTransform(-47.25,3,1,1,0,0,0,-336,0);
+	this.instance_10.setTransform(-167.25,3,1,1,0,0,0,-336,0);
 	this.instance_10.compositeOperation = "multiply";
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({x:319.1,alpha:0.8984},37).to({x:382.5,alpha:0},9).to({_off:true},1).wait(213));
 
 	// med2
 	this.instance_11 = new lib.blockmed();
-	this.instance_11.setTransform(1019.25,78,1,1,0,0,0,-336,0);
+	this.instance_11.setTransform(1139.25,78,1,1,0,0,0,-336,0);
 	this.instance_11.compositeOperation = "multiply";
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({x:915.25,alpha:0.8984},37).to({x:897.25,alpha:0},9).to({_off:true},1).wait(213));
 
 	// med3
 	this.instance_12 = new lib.blockmed();
-	this.instance_12.setTransform(-46.75,86,1,1,0,0,0,-336,0);
+	this.instance_12.setTransform(-166.75,86,1,1,0,0,0,-336,0);
 	this.instance_12.compositeOperation = "multiply";
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({x:255.85,alpha:0.8984},37).to({x:308.25,alpha:0},9).to({_off:true},1).wait(213));
 
 	// fat1
 	this.instance_13 = new lib.blockfat();
-	this.instance_13.setTransform(1353.75,35);
+	this.instance_13.setTransform(1473.75,35);
 	this.instance_13.compositeOperation = "multiply";
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_13).to({x:1073.35,alpha:0.8984},37).to({x:1024.8,alpha:0},9).to({_off:true},1).wait(213));
 
 	// fat2
 	this.instance_14 = new lib.blockfat();
-	this.instance_14.setTransform(288.75,48.05);
+	this.instance_14.setTransform(168.75,48.05);
 	this.instance_14.compositeOperation = "multiply";
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_14).to({x:454.15,alpha:0.8984},37).to({x:482.8,alpha:0},9).to({_off:true},1).wait(213));
 
 	// fat3
 	this.instance_15 = new lib.blockfat();
-	this.instance_15.setTransform(1353.75,149);
+	this.instance_15.setTransform(1473.75,149);
 	this.instance_15.compositeOperation = "multiply";
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_15).to({x:1147.5,alpha:0.8984},37).to({x:1111.8,alpha:0},9).to({_off:true},1).wait(213));
@@ -868,7 +868,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(152.2,38,1034.6,132);
+p.nominalBounds = new cjs.Rectangle(150.3,38,1156.5,132);
 // library properties:
 lib.properties = {
 	id: 'A79EFEC4A97F49888D3F6FD01A528C13',

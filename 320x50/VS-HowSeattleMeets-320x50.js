@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"VS_HowSeattleMeets_320x50_atlas_NP_1", frames: [[0,0,600,500]]}
+		{name:"VS_HowSeattleMeets_320x50_atlas_NP_1", frames: [[0,0,1456,180]]}
 ];
 
 
@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib._300x250rainier = function() {
+(lib._728x90needle = function() {
 	this.initialize(ss["VS_HowSeattleMeets_320x50_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -106,14 +106,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._300x250rainier();
-	this.instance.setTransform(-150,-125,0.5,0.5);
+	this.instance = new lib._728x90needle();
+	this.instance.setTransform(-314,-25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC, new cjs.Rectangle(-150,-125,300,250), null);
+}).prototype = getMCSymbolPrototype(lib.PIC, new cjs.Rectangle(-314,-25,728,90), null);
 
 
 (lib.HEAD3b = function(mode,startPosition,loop,reversed) {
@@ -755,7 +755,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-165.7,-87.5,821.5,250);
+p.nominalBounds = new cjs.Rectangle(-165.7,18,821.5,78.5);
 // library properties:
 lib.properties = {
 	id: 'A79EFEC4A97F49888D3F6FD01A528C13',

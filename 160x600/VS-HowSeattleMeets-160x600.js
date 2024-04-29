@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib._160x600rainier = function() {
+(lib._160x600needle = function() {
 	this.initialize(ss["VS_HowSeattleMeets_160x600_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -106,7 +106,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._160x600rainier();
+	this.instance = new lib._160x600needle();
 	this.instance.setTransform(-80,-300,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -771,28 +771,28 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1a
 	this.instance_5 = new lib.HEAD1a();
-	this.instance_5.setTransform(-297.95,95.25,1.26,1.26);
+	this.instance_5.setTransform(-297.95,245.25,1.26,1.26);
 	this.instance_5._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(41).to({_off:false},0).to({x:79.95},10,cjs.Ease.quadOut).wait(54).to({x:457.95},8,cjs.Ease.quadIn).to({_off:true},1).wait(146));
 
 	// HEAD1b
 	this.instance_6 = new lib.HEAD1b();
-	this.instance_6.setTransform(-297.95,97.25,1.26,1.26);
+	this.instance_6.setTransform(-297.95,247.25,1.26,1.26);
 	this.instance_6._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(52).to({_off:false},0).to({x:79.95},10,cjs.Ease.quadOut).wait(46).to({x:457.95},8,cjs.Ease.quadIn).to({_off:true},1).wait(143));
 
 	// HEAD2a
 	this.instance_7 = new lib.HEAD2a();
-	this.instance_7.setTransform(-297.95,113.45,1.26,1.26);
+	this.instance_7.setTransform(-297.95,263.45,1.26,1.26);
 	this.instance_7._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(116).to({_off:false},0).to({x:79.95},10,cjs.Ease.quadOut).wait(53).to({x:457.95},8,cjs.Ease.quadIn).to({_off:true},1).wait(72));
 
 	// HEAD2b
 	this.instance_8 = new lib.HEAD2b();
-	this.instance_8.setTransform(-297.95,115.45,1.26,1.26);
+	this.instance_8.setTransform(-297.95,265.45,1.26,1.26);
 	this.instance_8._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(127).to({_off:false},0).to({x:79.95},10,cjs.Ease.quadOut).wait(45).to({x:457.95},8,cjs.Ease.quadIn).to({_off:true},1).wait(69));

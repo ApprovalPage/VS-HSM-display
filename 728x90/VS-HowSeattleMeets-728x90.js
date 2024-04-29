@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib._728x90rainier = function() {
+(lib._728x90needle = function() {
 	this.initialize(ss["VS_HowSeattleMeets_728x90_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -106,7 +106,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._728x90rainier();
+	this.instance = new lib._728x90needle();
 	this.instance.setTransform(-364,-45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
